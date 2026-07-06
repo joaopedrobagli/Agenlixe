@@ -1,9 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-4xl font-bold text-purple-600">AgenLix</h1>
+    <div className="bg-[#0B0C2A] min-h-screen">
+      <Header />
     </div>
   )
 }
 
-export default App
+export default App;
