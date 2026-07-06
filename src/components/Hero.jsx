@@ -23,16 +23,13 @@ function Hero() {
         </p>
 
         <div className="flex gap-8 items-center">
-          <a href="#contato" className="flex items-center gap-3 text-white text-base group">
-            <span className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-lg group-hover:border-white/50 transition">
-              →
-            </span>
-            Fale conosco
-          </a>
-          <a href="#servicos" className="text-white/35 text-sm hover:text-white/60 transition">
-            Ver serviços
-          </a>
-        </div>
+        <a href="#contato" className="text-white text-sm font-medium px-7 py-3 rounded-md border border-white/30 hover:border-white/60 transition">
+         Fale conosco
+       </a>
+       <a href="#servicos" className="text-white/40 text-sm hover:text-white/60 transition">
+        Ver serviços →
+      </a>
+      </div>
 
       </div>
     </section>
