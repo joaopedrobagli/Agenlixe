@@ -1,16 +1,67 @@
-# React + Vite
+# AgenLix — Agência de Marketing Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site institucional da AgenLix, uma agência de marketing digital focada em resultados reais. Desenvolvido com React, Vite e Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [React](https://react.dev/) — biblioteca para construção de interfaces
+- [Vite](https://vitejs.dev/) — bundler e servidor de desenvolvimento
+- [Tailwind CSS](https://tailwindcss.com/) — estilização utilitária
 
-## React Compiler
+## 📋 Seções
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Header** — navegação fixa com menu responsivo (hambúrguer no mobile)
+- **Hero** — banner principal com imagem de fundo e chamada para ação
+- **Serviços** — cards com os 4 serviços oferecidos e resultados alcançados
+- **Depoimentos** — feedbacks de clientes com foto e cargo
+- **Contato** — formulário com validação de campos via useState
+- **Footer** — links de navegação, redes sociais e copyright
 
-## Expanding the ESLint configuration
+## 💡 Conceitos aplicados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Componentização — cada seção é um componente independente
+- `useState` — controle de estado no menu mobile e validação do formulário
+- Responsividade — layout adaptado para mobile, tablet e desktop
+- Git Flow — desenvolvimento por branches com Pull Requests
+
+## 🛠️ Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/joaopedrobagli/Agenlixe.git
+
+# Entre na pasta
+cd Agenlixe
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
+```
+
+Acesse `http://localhost:5173` no navegador.
+
+## 📁 Estrutura de pastas
+
+```
+src/
+  components/
+    Header.jsx
+    Hero.jsx
+    Servicos.jsx
+    Depoimentos.jsx
+    Contato.jsx
+    Footer.jsx
+  App.jsx
+public/
+  logo-icone.png
+  hero.png
+  cliente1.jpg
+  cliente2.jpg
+  cliente3.jpg
+```
+
+## 👨‍💻 Autor
+
+João Pedro Bagli — [LinkedIn](https://linkedin.com/in/joaopedrobagli) · [Portfólio](https://joaopedrobagli.netlify.app) · [GitHub](https://github.com/joaopedrobagli)
