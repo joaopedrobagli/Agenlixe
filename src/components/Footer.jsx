@@ -3,7 +3,7 @@ function Footer() {
     <footer className="bg-[#0B0C2A] pt-16 pb-8">
       <div className="max-w-6xl mx-auto px-8">
 
-        <div className="grid grid-cols-3 gap-12 pb-12 border-b border-white/8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pb-12 border-b border-white/8">
 
           <div className="flex flex-col gap-4">
             <img src="/logo-icone.png" alt="AgenLix" className="h-12 w-12 object-contain" />
